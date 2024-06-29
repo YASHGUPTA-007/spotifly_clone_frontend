@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="" />
+    <title>Spotify-web Player: Music for everyone</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="./assets/logo.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+    />
+  </head>
+
+  <!-- Main Body -->
+   
+  <body>
+    <div class="main">
+      <div class="sidebar">
+        <div class="nav">
+          <div class="nav-option" style="opacity: 1">
+            <i class="fa-solid fa-house"></i>
+            <a href="">Home</a>
+          </div>
+
+          <div class="nav-option">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <a href="">search</a>
+          </div>
+        </div>
+
+        <div></div>
+
+        <div class="library">
+          <div class="options">
+            <div class="lib-option nav-option">
+              <img src="./assets/library_icon.png" />
+              <a href="#" style="background-color: #121212">Your library</a>
+            </div>
+            <div class="icons">
+              <i class="fa-solid fa-plus"></i>
+              <i class="fa-solid fa-arrow-right"></i>
+            </div>
+          </div>
+          <div class="sidebar-btn">
+            <button class="button-17" role="button">playlist</button>
+            <button class="button-17" role="button">artist</button>
+            <button class="button-17" role="button">Albums</button>
+            <button class="button-17" role="button">Podcast & shows</button>
+          </div>
+          <div class="songs">
+            <div class="grid-item grid-item-g">
+              <img src="./assets/Screenshot 2024-06-27 202127.png" alt="Raju Punjabi" />
+              <p>Velvet Night</p>
+              <img
+                style="background-color: transparent"
+                class="play-button"
+                src="./assets/8212668.png"
+              />
+            </div>
+            <div class="grid-item grid-item-g">
+              <img src="./assets/Screenshot 2024-06-27 202137.png" alt="Raju Punjabi" />
+              <p>Eternal Breeze</p>
+              <img
+                style="background-color: transparent"
+                class="play-button"
+                src="./assets/8212668.png"
+              />
+            </div>
+            <div class="grid-item grid-item-g">
+              <img src="./assets/card3img.jpeg" alt="Raju Punjabi" />
+              <p>Sitar Ke Saaz</p>
+              <img
+                style="background-color: transparent"
+                class="play-button"
+                src="./assets/8212668.png"
+              />
+            </div>
+            <div class="grid-item grid-item-g">
+              <img src="./assets/Screenshot 2024-06-27 202156.png" alt="Raju Punjabi" />
+              <p>Pehli Baarish</p>
+              <img
+                style="background-color: transparent"
+                class="play-button"
+                src="./assets/8212668.png"
+              />
+            </div>
+            
+        
+          </div>
+     
+          <div class="lib-box">
+            <div class="box">
+              <p class="box-p1">Create your first playlist</p>
+              <p class="box-p2">It's easy,we will help you</p>
+              <button class="badge">Create playlist</button>
+            </div>
+            <div class="box">
+              <p class="box-p1">Let's find some podcast to follow</p>
+              <p class="box-p2">we will help you find podcast</p>
+              <button class="badge">Browse podcast</button>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      <div class="main-content" style="background-color: #121212">
+        <div class="sticky-navbar">
+          <div style="background-color: transparent;" class="sticky-nav-icons" >
+            <img style="background-color: transparent;" src="./assets/backward_icon.png" />
+            <img style="background-color: transparent;" class="hide" src="./assets/forward_icon.png" />
+          </div>
+          <div class="sticky-nav-options" style="background-color: transparent">
+            <button class="badge nav-item hide">Explore Premium</button>
+            <button class="badge nav-item dark-badge">
+              <i
+                class="fa-regular fa-circle-down "
+                style="margin-right: 7px; margin-top: 1px; background-color: transparent"
+              ></i
+              >Install App
+            </button>
+            <img style="background-color: transparent;" class="gamer" src="./assets/gamer.png" />
+          </div>
+          <div style="background-color: transparent" class="button-group">
+            <button class="btn selected">All</button>
+            <button class="btn">Music</button>
+            <button class="btn">Podcasts</button>
+          </div>
+        </div>
+        <div class="grid-container">
+          <div class="grid-item a">
+            <img src="./assets/g1.png" alt="Liked Songs" />
+            <p style="background-color: transparent;">Liked Songs</p>
+            <img
+              style="background-color: transparent"
+              class="play-button"
+              src="./assets/8212668.png"
+            />
+          </div>
+          <div class="grid-item b">
+            <img src="./assets/g7.png" alt="Nandiniy + YASH" />
+            <p style="background-color: transparent;">Nandiniy + YASH</p>
+            <img
+              style="background-color: transparent"
+              class="play-button"
+              src="./assets/8212668.png"
+            />
+          </div>
+          <div class="grid-item ">
+            <img src="./assets/g2.png" alt="Phonk" />
+            <p style="background-color: transparent;">Phonk</p>
+            <img
+              style="background-color: transparent"
+              class="play-button"
+              src="./assets/8212668.png"
+            />
+          </div>
+          <div class="grid-item">
+            <img src="./assets/g5.png" alt="Wait what-" />
+            <p style="background-color: transparent;">Wait what-</p>
+            <img
+              style="background-color: transparent"
+              class="play-button"
+              src="./assets/8212668.png"
+            />
+          </div>
+          <div class="grid-item">
+            <img src="./assets/g4.png" alt="MASHA ULTRAFUNK" />
+            <p style="background-color: transparent;">MASHA</p>
+            <img
+              style="background-color: transparent"
+              class="play-button"
+              src="./assets/8212668.png"
+            />
+          </div>
+          <div class="grid-item">
+            <img src="./assets/g7.png" alt="Vipul + YASH" />
+            <p style="background-color: transparent;">Vipul + YASH</p>
+            <img
+              style="background-color: transparent"
+              class="play-button"
+              src="./assets/8212668.png"
+            />
+          </div>
+          <div class="grid-item">
+            <img src="./assets/g6.png" alt="Raju Punjabi" />
+            <p style="background-color: transparent;">Raju Punjabi</p>
+            <img
+              style="background-color: transparent"
+              class="play-button"
+              src="./assets/8212668.png"
+            />
+          </div>
+          <div class="grid-item">
+            <img src="./assets/g3.png" alt="I HAVE NO ENEMIES" />
+            <p style="background-color: transparent;">NO ENEMIES</p>
+            <img
+              style="background-color: transparent"
+              class="play-button"
+              src="./assets/8212668.png"
+            />
+          </div>
+        </div>
+        <h2 style="background-color: transparent;">Recently Played</h2>
+        <div class="cards-container">
+          <div class="card">
+            <img src="./assets/like.png" class="card-img background-image" />
+            <p class="card-title">Liked</p>
+            <p class="card-info">Your daily updates of of the most played...</p>
+            <div class="playy-icon">
+              <div class="circle">
+                <div class="triangle"></div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="./assets/Screenshot 2024-06-27 202127.png"
+              class="card-img"
+            />
+            <p class="card-title">song6</p>
+            <p class="card-info">Your daily updates of of the most played...</p>
+          </div>
+          <div class="card">
+            <img
+              src="./assets/Screenshot 2024-06-27 202137.png"
+              class="card-img"
+            />
+            <p class="card-title">song7</p>
+            <p class="card-info">Your daily updates of of the most played...</p>
+          </div>
+          <div class="card">
+            <img
+              src="./assets/Screenshot 2024-06-27 202143.png"
+              class="card-img"
+            />
+            <p class="card-title">song8</p>
+            <p class="card-info">Your daily updates of of the most played...</p>
+          </div>
+          <div class="card">
+            <img
+              src="./assets/Screenshot 2024-06-27 202149.png"
+              class="card-img"
+            />
+            <p class="card-title">song8</p>
+            <p class="card-info">Your daily updates of of the most played...</p>
+          </div>
+
+          <div class="card">
+            <img src="./assets/card1img.jpeg" class="card-img" />
+            <p class="card-title">Top-50 - Global</p>
+            <p class="card-info">Your daily updates of of the most played...</p>
+          </div>
+        </div>
+        <h2 style="background-color: transparent;">Trending now near you</h2>
+
+        <div class="cards-container">
+          <div class="card">
+            <img src="./assets/card2img.jpeg" class="card-img" />
+            <p class="card-title">Top-50 - Global</p>
+            <p class="card-info">Your daily updates of of the most played...</p>
+          </div>
+          <div class="card">
+            <img
+              src="./assets/Screenshot 2024-06-27 202127.png"
+              class="card-img"
+            />
+            <p class="card-title">song6</p>
+            <p class="card-info">Your daily updates of of the most played...</p>
+          </div>
+          <div class="card">
+            <img
+              src="./assets/Screenshot 2024-06-27 202137.png"
+              class="card-img"
+            />
+            <p class="card-title">song7</p>
+            <p class="card-info">Your daily updates of of the most played...</p>
+          </div>
+          <div class="card">
+            <img
+              src="./assets/Screenshot 2024-06-27 202143.png"
+              class="card-img"
+            />
+            <p class="card-title">song8</p>
+            <p class="card-info">Your daily updates of of the most played...</p>
+          </div>
+          <div class="card">
+            <img src="./assets/card3img.jpeg" class="card-img" />
+            <p class="card-title">Top-50 - Global</p>
+            <p class="card-info">Your daily updates of of the most played...</p>
+          </div>
+          <div class="card">
+            <img src="./assets/card4img.jpeg" class="card-img" />
+            <p class="card-title">Top-50 - Global</p>
+            <p class="card-info">Your daily updates of of the most played...</p>
+          </div>
+          <div class="card">
+            <img src="./assets/card5img.jpeg" class="card-img" />
+            <p class="card-title">Top-50 - Global</p>
+            <p class="card-info">Your daily updates of of the most played...</p>
+          </div>
+          <div class="card">
+            <img src="./assets/card6img.jpeg" class="card-img" />
+            <p class="card-title">Top-50 - Global</p>
+            <p class="card-info">Your daily updates of of the most played...</p>
+          </div>
+          <div class="card">
+            <img
+              src="./assets/Screenshot 2024-06-27 202127.png"
+              class="card-img"
+            />
+            <p class="card-title">song6</p>
+            <p class="card-info">Your daily updates of of the most played...</p>
+          </div>
+          <div class="card">
+            <img
+              src="./assets/Screenshot 2024-06-27 202137.png"
+              class="card-img"
+            />
+            <p class="card-title">song7</p>
+            <p class="card-info">Your daily updates of of the most played...</p>
+          </div>
+          <div class="card">
+            <img
+              src="./assets/Screenshot 2024-06-27 202143.png"
+              class="card-img"
+            />
+            <p class="card-title">song8</p>
+            <p class="card-info">Your daily updates of of the most played...</p>
+          </div>
+          <div class="card">
+            <img
+              src="./assets/Screenshot 2024-06-27 202149.png"
+              class="card-img"
+            />
+            <p class="card-title">song8</p>
+            <p class="card-info">Your daily updates of of the most played...</p>
+          </div>
+        </div>
+        <h2 style="background-color: transparent;">Feature charts</h2>
+        <div class="cards-container">
+          <div class="card">
+            <img src="./assets/card1img.jpeg" class="card-img" />
+            <p class="card-title">Top-songs</p>
+            <p class="card-info">Your daily updates of of the most played...</p>
+          </div>
+          <div class="card">
+            <img src="./assets/card5img.jpeg" class="card-img" />
+            <p class="card-title">Top-50 - Global</p>
+            <p class="card-info">Your daily updates of of the most played...</p>
+          </div>
+          <div class="card">
+            <img src="./assets/card4img.jpeg" class="card-img" />
+            <p class="card-title">Top-songs india</p>
+            <p class="card-info">Your daily updates of of the most played...</p>
+          </div>
+          <div class="card">
+            <img src="./assets/card3img.jpeg" class="card-img" />
+            <p class="card-title">Top-10 songs</p>
+            <p class="card-info">Your daily updates of of the most played...</p>
+          </div>
+          <div class="card">
+            <img
+              src="./assets/Screenshot 2024-06-27 202156.png"
+              class="card-img"
+            />
+            <p class="card-title">song8</p>
+            <p class="card-info">Your daily updates of of the most played...</p>
+          </div>
+          <div class="card">
+            <img src="./assets/card2img.jpeg" class="card-img" />
+            <p class="card-title">Top-50 - Global</p>
+            <p class="card-info">Your daily updates of of the most played...</p>
+          </div>
+          <div class="card">
+            <img src="./assets/card3img.jpeg" class="card-img" />
+            <p class="card-title">Top-50 - Global</p>
+            <p class="card-info">Your daily updates of of the most played...</p>
+          </div>
+          <div class="card">
+            <img src="./assets/card4img.jpeg" class="card-img" />
+            <p class="card-title">Top-50 - Global</p>
+            <p class="card-info">Your daily updates of of the most played...</p>
+          </div>
+          <div class="card">
+            <img src="./assets/card5img.jpeg" class="card-img" />
+            <p class="card-title">Top-50 - Global</p>
+            <p class="card-info">Your daily updates of of the most played...</p>
+          </div>
+          <div class="card">
+            <img src="./assets/card4img.jpeg" class="card-img" />
+            <p class="card-title">Top-songs india</p>
+            <p class="card-info">Your daily updates of of the most played...</p>
+          </div>
+        </div>
+        <div class="footer">
+          <div class="line"></div>
+        </div>
+
+        <footer>
+          <div class="footer-container">
+            <div class="footer-section">
+              <h3>Company</h3>
+              <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Jobs</a></li>
+                <li><a href="#">For the Record</a></li>
+              </ul>
+            </div>
+            <div class="footer-section">
+              <h3>Communities</h3>
+              <ul>
+                <li><a href="#">For Artists</a></li>
+                <li><a href="#">Developers</a></li>
+                <li><a href="#">Advertising</a></li>
+                <li><a href="#">Investors</a></li>
+                <li><a href="#">Vendors</a></li>
+              </ul>
+            </div>
+            <div class="footer-section">
+              <h3>Useful links</h3>
+              <ul>
+                <li><a href="#">Support</a></li>
+                <li><a href="#">Free Mobile App</a></li>
+              </ul>
+            </div>
+            <div class="footer-section">
+              <h3>Spotify Plans</h3>
+              <ul>
+                <li><a href="#">Premium Individual</a></li>
+                <li><a href="#">Premium Duo</a></li>
+                <li><a href="#">Premium Family</a></li>
+                <li><a href="#">Premium Student</a></li>
+                <li><a href="#">Spotify Free</a></li>
+              </ul>
+            </div>
+            <div class="social-icons">
+              <a href="#"><img src="./assets/images.jpg" alt="Instagram" /></a>
+              <a href="#"><img src="./assets/TWITTER.jpg" alt="Twitter" /></a>
+              <a href="#"
+                ><img src="./assets/forward_icon.png" alt="Facebook"
+              /></a>
+            </div>
+            <div class="footer-bottom">
+              <p>© 2024 Spotify AB</p>
+            </div>
+          </div>
+        </footer>
+      </div>
+      <div class="music-player">
+        <div class="album"></div>
+        <div class="player">
+          <div class="player-controls">
+            <img src="./assets/player_icon1.png" class="player-control-icon" />
+            <img src="./assets/player_icon2.png" class="player-control-icon" />
+            <img
+              src="./assets/player_icon3.png"
+              class="player-control-icon play-b"
+              opacity="1; font-size:2.5rem"
+            />
+            <img src="./assets/player_icon4.png" class="player-control-icon" />
+            <img src="./assets/player_icon5.png" class="player-control-icon" />
+          </div>
+          <div class="playback-bar">
+            <span class="curr-time">00:00</span>
+            <input
+              type="range"
+              min="0"
+              max="100"
+              class="progress-bar"
+              step="1"
+            />
+            <span class="tot-time">3:33</span>
+          </div>
+        </div>
+        <div class="controls"></div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
