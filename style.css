@@ -145,6 +145,7 @@
     justify-content: space-between;
     align-items: centre;
     padding: 1rem 0 1rem 0;
+      z-index: 1000;
   }
   .sticky-nav-icons {
     margin-left: 0.75rem;
